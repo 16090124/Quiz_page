@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="container" id="myquiz">
+        <div class="scorecard">
+            <div class="question">Question:
+                <span id="currentQ">0</span>/
+                <span id="totalQ">x</span>
+            </div>
+            <div class="scoreview">score:
+                <span id="score">0</span>
+            </div>
+        </div>
+
+        <div class="header">
+
+            <h2 id="questionn">Here some questions</h2>
+            <hr>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="optionA">
+                    <label for="optionA" id="optionAtext">option A</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="optionB">
+                    <label for="optionA" id="optionBtext">option B</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="optionC">
+                    <label for="optionA" id="optionCtext">option C</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="optionD">
+                    <label for="optionA" id="optionDtext">option D</label>
+                </li>
+            </ul>
+        </div>
+        <button id="submit">Submit</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

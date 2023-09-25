@@ -1,0 +1,67 @@
+*{ /*universal selector*/
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.container{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 1px rgb(217, 11, 11);
+    width: 400px;
+}
+
+.scorecard{
+    padding-bottom: 20px;
+    position: relative;
+}
+.question{
+   /* float: left; */
+   position: absolute;
+   font-weight:bold ;
+}
+.scoreview{
+   /* float: right; */
+   position: absolute;
+   right: 10px;
+   font-weight:bold ;
+}
+
+h2{
+    text-align: center;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0%;
+}
+ul li{
+    margin: 10px 0;
+    font-size: 20px;
+}
+label{
+    cursor: pointer;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease ; /* property name | duration | easing function */
+}
+button:hover{
+    background-color: rgb(81, 81, 132);
+}
+
